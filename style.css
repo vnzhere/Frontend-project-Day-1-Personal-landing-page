@@ -1,0 +1,79 @@
+/* body --- whole page
+Remove default white gaps
+Set font
+Set page background color */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* select header and make backG beige
+
+selector (what){
+  property: value;(which feature)
+  property: value;(how much/ what type)
+}
+
+*/
+/* -------------------------------------- */
+/* Color the header
+Add space inside it
+Center text
+Padding = breathing space inside box */
+
+header {
+  background-color: beige;
+  padding: 20px;
+  text-align: center;
+}
+/* Only apply to <a> inside header(links in header)
+Add horizontal spacing
+Remove underline
+Set color
+This is called nested selection */
+
+header a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/* (Main Content area)
+Limit width
+Center it
+Add space inside
+Make it white
+This creates the “card” layout used everywhere. */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+}
+
+section {
+  margin-top: 30px;
+}
+
+/* Indent list(lists)
+Add spacing between items */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin: 6px 0;
+}
+
+/* Color footer
+Center text
+Add spacing
+Push it down from content */
+footer {
+  background-color: pink;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
